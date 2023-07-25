@@ -1,0 +1,150 @@
+body {
+    color: #737373;
+    font-size: 14px;
+    font-family: verdana;
+    background-image: url(/img/fundo.jpg);
+    background-repeat: no-repeat no-repeat;
+    background-position: right;
+}
+
+.container {
+    width: 300px;
+    height: auto;
+    margin: 0 auto;
+    margin-top: 10vh;
+    -webkit-box-shadow: 3px 3px 5px 6px #ccc;
+    -moz-box-shadow: 3px 3px 5px 6px #ccc;
+    box-shadow: 3px 3px 5px 6px #ccc;
+    padding: 15px 20px 25px 20px;
+
+}
+
+.banner {
+    width: 100%;
+    text-align: center;
+}
+
+.banner img {
+    max-width: 100%;
+    height: auto;
+}
+
+.banner label {
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.error-panel {
+    width: 100%;
+    height: auto;
+    margin-top: 20px;
+    color: red;
+}
+
+.login-panel {
+    width: 290px;
+    margin-top: 30px;
+}
+
+.login-input {
+    width: 100%;
+    height: 40px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.login-input input {
+    width: 100%;
+    height: 35px;
+}
+
+#login-button {
+    width: 102%;
+    text-align: center;
+
+}
+
+#login-button input {
+    width: 100px;
+    height: 38px;
+    background-color: #b97d00;
+    border-color: #b97d00;
+    color: #fff;
+}
+
+#login-button input:hover {
+    background-color: #000;
+    border: 1px solid #000;
+}
+
+.free-trial {
+    width: 100%;
+    margin-top: 20px;
+    margin-bottom: 10px;
+    text-align: center;
+}
+
+.free-trial a {
+    text-decoration: none;
+    color: #b97d00;
+}
+
+.free-trial a:hover {
+    text-decoration: underline;
+}
+
+.datetime {
+    width: 100%;
+    margin-top: 15px;
+    text-align: center;
+    font-size: 19px;
+}
+
+.lnr-eye {
+    position: absolute;
+    top: 5px;
+    right: 10px;
+    cursor: pointer;
+}
+
+.login-input {
+    width: 100%;
+    height: 40px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.cadastrar-input input {
+    width: 100%;
+    height: 35px;
+}
+
+#cadastrar-button {
+    width: 102%;
+    text-align: center;
+
+}
+
+#cadastrar-button input {
+    width: 100px;
+    height: 38px;
+    background-color: #b97d00;
+    border-color: #b97d00;
+    color: #fff;
+}
+
+#cadastrar-button input:hover {
+    background-color: #000;
+    border: 1px solid #000;
+}
+
+input {
+    font-size: 15px;
+    text-align: center;
+}
+
+
+#idioma{
+    width: 40%;
+    text-align: center;
+}

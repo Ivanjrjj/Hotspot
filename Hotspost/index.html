@@ -1,0 +1,61 @@
+<!DOCTYPE html
+  PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html>
+<head>
+  <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+  <meta http-equiv="pragma" content="no-cache" />
+  <meta http-equiv="expires" content="-1" />
+  <meta name="viewport" content="width=device-width; initial-scale=1.0; maximum-scale=1.0;" />
+  <link rel="stylesheet" href="./CSS/./style.css">
+  <link rel="stylesheet" href="https://cdn.linearicons.com/free/1.0.0/icon-font.min.css">
+  <link rel="shortcut icon" href="./img/fvicon.png" type="image/x-icon">
+  <title>Hotspot</title>
+</head>
+<body onload="startTime()">
+  <form name="sendin" action="$(link-login-only)" method="post">
+    <input type="hidden" name="username" />
+    <input type="hidden" name="password" />
+    <input type="hidden" name="dst" value="$(link-orig)" />
+    <input type="hidden" name="popup" value="true" />
+  </form>
+  <script type="text/javascript">
+  </script>
+  <div class="container">
+    <label for="idioma">Idioma:</label>
+    <select id="idioma">
+      <option value="pt">Português</option>
+      <option value="en">English</option>
+    </select>
+    </form>
+    <div class="banner">
+      <img src="./img/fundo2.jpg">
+      <label>Hostpot</label>
+    </div>
+    <form name="login" action="#">
+      <input type="hidden" name="dst" value="$(link-orig)" />
+      <input type="hidden" name="popup" value="true" />
+      <div class="error-panel">
+      </div>
+      <div class="login-panel">
+        <div class="login-input">
+          <input name="username" type="text" value="" placeholder="Usuário" />
+        </div>
+        <div class="login-input">
+          <input type="password" type="password" placeholder="Digte sua senha" />
+          <span class="lnr lnr-eye"></span>
+        </div>
+        <div id="login-button"><input type="submit" value="Login" /></div>
+        <div class="free-trial">
+          <a href="#">Cadastre-se</a>
+        </div>
+        <div class="datetime">
+          <span id="date"></span> - <span id="time"></span>
+        </div>
+      </div>
+    </form>
+  </div>
+  <script type="text/javascript">
+  </script>
+  <script src="./script.js"></script>
+</body>
+</html>
